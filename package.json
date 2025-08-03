@@ -1,0 +1,9 @@
+{
+  "name": "slyke-browser",
+  "version": "1.0.0",
+  "main": "main.js",
+  "dependencies": {
+    "preact": "^10.27.0",
+    "three": "^0.179.1"
+  }
+}
