@@ -1,0 +1,50 @@
+App(title: "Meine App") {
+  body(backgroundColor: "black") {
+    HStack() {
+        echo {
+            value: "Willkommen bei Slyke!"
+            color: "black"
+            borderColor: "red"
+        }
+        button {
+            value: "Klick mich"
+            backgroundColor: "lightgreen"
+            padding: "20px"
+        }
+        popup {
+            backgroundColor: "black"
+            width: "200px"
+            height: "100px"
+            padding: "20px"
+           
+        }
+        card {
+            width: "200px"
+            height: "100px"
+            backgroundColor: "red"
+            padding: "20px"
+        }
+        box {
+            backgroundColor: "red"
+            width: "200px"
+            height: "100px"
+        }
+        scene {
+            backgroundColor: "black"
+            width: "200px"
+            height: "100px"
+            padding: "20px"
+        }
+        screen {
+            backgroundColor: "blue"
+            width: "200px"
+            height: "100px"
+        }
+
+        3DScene(width: 800, height: 600, cameraZ: 7) {
+        Cube(size: 2, color: "blue", rotate: "true") {  
+           }
+         }  
+       }
+     }
+  }

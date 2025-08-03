@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Slyke Browser</title>
+  </head>
+  <body>
+    <div id="app"></div>
+
+    <!-- Three.js über CDN laden -->
+    <script type="module">
+      import * as THREE from "https://unpkg.com/three@0.155.0/build/three.module.js";
+      window.THREE = THREE;
+    </script>
+
+    <!-- Dein Renderer -->
+    <script type="module" src="./renderer.js"></script>
+  </body>
+</html>
